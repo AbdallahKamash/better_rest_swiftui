@@ -29,15 +29,31 @@
 		153BE0762ED6B6400090B6BA /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		153BE08B2ED6F42D0090B6BA /* Exceptions for "BetterRest" folder in "BetterRest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SleepCalculator.swift,
+			);
+			target = 153BE05E2ED6B6400090B6BA /* BetterRest */;
+		};
+		153BE08C2ED6F42D0090B6BA /* Exceptions for "BetterRest" folder in "BetterRestTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SleepCalculator.swift,
+			);
+			target = 153BE06B2ED6B6400090B6BA /* BetterRestTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		153BE0612ED6B6400090B6BA /* BetterRest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				153BE08B2ED6F42D0090B6BA /* Exceptions for "BetterRest" folder in "BetterRest" target */,
+				153BE08C2ED6F42D0090B6BA /* Exceptions for "BetterRest" folder in "BetterRestTests" target */,
+			);
 			path = BetterRest;
-			sourceTree = "<group>";
-		};
-		153BE06F2ED6B6400090B6BA /* BetterRestTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BetterRestTests;
 			sourceTree = "<group>";
 		};
 		153BE0792ED6B6400090B6BA /* BetterRestUITests */ = {
@@ -76,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				153BE0612ED6B6400090B6BA /* BetterRest */,
-				153BE06F2ED6B6400090B6BA /* BetterRestTests */,
 				153BE0792ED6B6400090B6BA /* BetterRestUITests */,
 				153BE0602ED6B6400090B6BA /* Products */,
 			);
@@ -129,9 +144,6 @@
 			);
 			dependencies = (
 				153BE06E2ED6B6400090B6BA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				153BE06F2ED6B6400090B6BA /* BetterRestTests */,
 			);
 			name = BetterRestTests;
 			packageProductDependencies = (

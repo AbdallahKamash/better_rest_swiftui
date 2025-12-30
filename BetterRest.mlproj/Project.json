@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2025-11-26T08:08:32Z",
+        "event" : "projectCreated",
+        "id" : "C3A6DA00-2C2E-44A5-9432-3E62B36DB562",
+        "subtitle" : "BetterRest",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Abdallah Kamash",
+  "createdDate" : "2025-11-26T08:08:32Z",
+  "description" : "",
+  "id" : "4A5191D6-FF3E-4D6E-9941-9FF7550DF1E3",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2025-11-26T08:08:32Z",
+  "projectName" : "BetterRest",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}
